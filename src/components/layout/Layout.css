@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.beige-claro{
+    color: #FFF1EE;
+}
+
+.beige-claro:hover{
+    color: #DEB5F3;
+}
+
+.navbar-container-1{
+    background-color: #FFF1EE;
+}
+
+.navbar-container-2{
+    background-color: #7C3A9E;
+    padding: 20px;
+}
+
+.search-button{
+    background-color: transparent;
+    border: solid 1px #FFF1EE;
+    color: #FFF1EE;
+}
+
+.search-button:hover{
+    background-color: #FFF1EE;
+    color: #7C3A9E;
+}
