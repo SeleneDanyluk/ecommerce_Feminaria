@@ -1,123 +1,123 @@
 books =
     [
         {
-            "name": "Dune",
-            "author": "Frank Herbert",
-            "img": "https://example.com/dune.jpg",
+            "name": "La Casa de los Espíritus",
+            "author": "Isabel Allende",
+            "img": "https://example.com/la-casa-de-los-espiritus.jpg",
             "price": "10.99",
-            "description": "A tale of interstellar politics, religion, and the fight for control over a desert planet.",
-            "stock": "25"
+            "description": "La historia de la familia Trueba a lo largo de cuatro generaciones en Chile",
+            "stock": "5"
         },
         {
-            "name": "Ender's Game",
-            "author": "Orson Scott Card",
-            "img": "https://example.com/endersgame.jpg",
+            "name": "Cien años de soledad",
+            "author": "Gabriel García Márquez",
+            "img": "https://example.com/cien-anos-de-soledad.jpg",
+            "price": "12.99",
+            "description": "La historia de la familia Buendía a lo largo de siete generaciones en Macondo",
+            "stock": "3"
+        },
+        {
+            "name": "Harry Potter y la piedra filosofal",
+            "author": "J.K. Rowling",
+            "img": "https://example.com/harry-potter-y-la-piedra-filosofal.jpg",
+            "price": "9.99",
+            "description": "La historia de Harry Potter y su entrada en el mundo de la magia",
+            "stock": "7"
+        },
+        {
+            "name": "Orgullo y prejuicio",
+            "author": "Jane Austen",
+            "img": "https://example.com/orgullo-y-prejuicio.jpg",
             "price": "8.99",
-            "description": "A young boy is recruited to lead Earth's defense against an alien invasion.",
-            "stock": "12"
+            "description": "La historia de Elizabeth Bennet y su relación con el señor Darcy",
+            "stock": "2"
+        },
+        {
+            "name": "Mujercitas",
+            "author": "Louisa May Alcott",
+            "img": "https://example.com/mujercitas.jpg",
+            "price": "7.99",
+            "description": "La historia de las hermanas March y su transición a la vida adulta",
+            "stock": "4"
+        },
+        {
+            "name": "En llamas",
+            "author": "Suzanne Collins",
+            "img": "https://example.com/en-llamas.jpg",
+            "price": "11.99",
+            "description": "La continuación de los juegos del hambre y la rebelión en los distritos",
+            "stock": "6"
+        },
+        {
+            "name": "El nombre del viento",
+            "author": "Patrick Rothfuss",
+            "img": "https://example.com/el-nombre-del-viento.jpg",
+            "price": "13.99",
+            "description": "La historia de Kvothe y sus aventuras en el mundo de Temerant",
+            "stock": "1"
+        },
+        {
+            "name": "Rebelión en la granja",
+            "author": "George Orwell",
+            "img": "https://example.com/rebelion-en-la-granja.jpg",
+            "price": "6.99",
+            "description": "La historia de los animales de la Granja Manor y su revolución contra los humanos",
+            "stock": "9"
+        },
+        {
+            "name": "Matar a un ruiseñor",
+            "author": "Harper Lee",
+            "img": "https://example.com/matar-a-un-ruisenor.jpg",
+            "price": "10.99",
+            "description": "La historia de Scout y su padre Atticus Finch en la época de la segregación racial en Alabama",
+            "stock": "3"
+        },
+        {
+            "name": "Los juegos del hambre",
+            "author": "Suzanne Collins",
+            "img": "https://example.com/los-juegos-del-hambre.jpg",
+            "price": "9.99",
+            "description": "La historia de Katniss Everdeen y su participación en los juegos del hambre",
+            "stock": "5"
+        },
+        {
+            "name": "El señor de los anillos",
+            "author": "J.R.R. Tolkien",
+            "img": "https://example.com/el-senor-de-los-anillos.jpg",
+            "price": "15.99",
+            "description": "La historia de Frodo Baggins y su misión para destruir el Anillo Único",
+            "stock": "2"
         },
         {
             "name": "1984",
             "author": "George Orwell",
             "img": "https://example.com/1984.jpg",
-            "price": "7.99",
-            "description": "A dystopian society where Big Brother is always watching.",
-            "stock": "18"
-        },
-        {
-            "name": "Brave New World",
-            "author": "Aldous Huxley",
-            "img": "https://example.com/bravenewworld.jpg",
-            "price": "9.99",
-            "description": "A future where genetic engineering and psychological manipulation control society.",
-            "stock": "10"
-        },
-        {
-            "name": "Foundation",
-            "author": "Isaac Asimov",
-            "img": "https://example.com/foundation.jpg",
-            "price": "11.99",
-            "description": "A mathematician predicts the fall of a galactic empire and sets out to save humanity.",
-            "stock": "20"
-        },
-        {
-            "name": "Neuromancer",
-            "author": "William Gibson",
-            "img": "https://example.com/neuromancer.jpg",
             "price": "8.99",
-            "description": "A washed-up computer hacker is hired to pull off the ultimate hack.",
-            "stock": "15"
+            "description": "La historia de Winston Smith y su lucha contra el régimen totalitario de Big Brother",
+            "stock": "4"
         },
         {
-            "name": "The Hitchhiker's Guide to the Galaxy",
-            "author": "Douglas Adams",
-            "img": "https://example.com/hitchhikersguide.jpg",
+            "name": "Crepúsculo",
+            "author": "Stephenie Meyer",
+            "img": "https://example.com/crepusculo.jpg",
             "price": "7.99",
-            "description": "A human and his alien friend travel through space after the destruction of Earth.",
-            "stock": "30"
+            "description": "La historia de Bella Swan y su romance con el vampiro Edward Cullen",
+            "stock": "6"
         },
         {
-            "name": "Snow Crash",
-            "author": "Neal Stephenson",
-            "img": "https://example.com/snowcrash.jpg",
-            "price": "10.99",
-            "description": "A futuristic world where virtual reality and the real world collide.",
+            "name": "El alquimista",
+            "author": "Paulo Coelho",
+            "img": "https://example.com/el-alquimista.jpg",
+            "price": "9.99",
+            "description": "La historia de Santiago y su búsqueda personal de la felicidad",
             "stock": "8"
         },
         {
-            "name": "I, Robot",
-            "author": "Isaac Asimov",
-            "img": "https://example.com/irobot.jpg",
-            "price": "9.99",
-            "description": "A collection of short stories exploring the relationship between robots and humans.",
-            "stock": "22"
-        },
-        {
-            "name": "The War of the Worlds",
-            "author": "H.G. Wells",
-            "img": "https://example.com/waroftheworlds.jpg",
-            "price": "7.99",
-            "description": "Martians invade Earth and humanity must fight for survival.",
-            "stock": "14"
-        },
-        {
-            "name": "Fahrenheit 451",
-            "author": "Ray Bradbury",
-            "img": "https://example.com/fahrenheit451.jpg",
-            "price": "8.99",
-            "description": "In a future society, books are banned and burned.",
-            "stock": "17"
-        },
-        {
-            "name": "The Time Machine",
-            "author": "H.G. Wells",
-            "img": "https://example.com/timemachine.jpg",
-            "price": "7.99",
-            "description": "An inventor travels to the future and witnesses the evolution of humanity.",
-            "stock": "11"
-        },
-        {
-            "name": "A Wrinkle in Time",
-            "author": "Madeleine L'Engle",
-            "img": "https://example.com/wrinkleintime.jpg",
-            "price": "6.99",
-            "description": "A young girl travels through space and time to rescue her father.",
-            "stock": "9"
-        },
-        {
-            "name": "The Hunger Games",
-            "author": "Suzanne Collins",
-            "img": "https://example.com/hungergames.jpg",
-            "price": "9.99",
-            "description": "In a dystopian society, teenagers are forced to fight to the death in a televised event.",
-            "stock": "16"
-        },
-        {
-            "name": "The Martian",
-            "author": "Andy Weir",
-            "img": "https://example.com/themartian.jpg",
+            "name": "El código Da Vinci",
+            "author": "Dan Brown",
+            "img": "https://example.com/el-codigo-da-vinci.jpg",
             "price": "10.99",
-            "description": "An astronaut is stranded on Mars and must find a way to survive.",
-            "stock": "13"
+            "description": "La historia de Robert Langdon y su investigación en torno al Santo Grial",
+            "stock": "7"
         }
     ]
