@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Layout.css'
 
-const Layout = () => {
+const Layout = ({ children }) => {
     return (
         <div>
             <Container fluid className='navbar-container-1'>
@@ -38,6 +38,7 @@ const Layout = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+            {children}
         </div>
     )
 }
