@@ -5,8 +5,15 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Layout.css'
+import { useNavigate } from "react-router-dom";
 
 const Layout = ({ children }) => {
+    const navigate = useNavigate();
+
+    const handleAuthorsNavigation = () => {
+        navigate("/authors");
+      };
+
     return (
         <div>
             <Container fluid className='navbar-container-1'>
@@ -23,7 +30,7 @@ const Layout = ({ children }) => {
                         >
                             <Nav.Link className='beige-claro' href="#action1">Nosotros</Nav.Link>
                             <Nav.Link className='beige-claro' href="#action2">Libros</Nav.Link>
-                            <Nav.Link className='beige-claro' href=''>Autoras</Nav.Link>
+                            <Nav.Link className='beige-claro' onClick={handleAuthorsNavigation} href=''>Autoras</Nav.Link>
                             <Nav.Link className='beige-claro' href="#">Contacto</Nav.Link>
                         </Nav>
                         <Form className="d-flex">
