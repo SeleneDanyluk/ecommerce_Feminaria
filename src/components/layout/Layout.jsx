@@ -5,10 +5,14 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Layout.css'
+import { Row } from 'react-bootstrap';
+import Col from 'react-bootstrap/Col';
+import ListGroup from 'react-bootstrap/ListGroup';
 
 const Layout = ({ children }) => {
     return (
         <div>
+            {/*Navbar*/}
             <Container fluid className='navbar-container-1'>
                 Logo
             </Container>
@@ -39,8 +43,44 @@ const Layout = ({ children }) => {
                 </Container>
             </Navbar>
             {children}
+            {/*Footer*/}
+            <div className='footer-container'>
+                <Row>
+                    <Col>Logo</Col>
+                    <Col>
+                        <Row>
+                            <Col>
+                                <Nav defaultActiveKey="/home" className="flex-column">
+                                    <h6>Explorar</h6>
+                                    <Nav.Link href="/home">Nosotras</Nav.Link>
+                                    <Nav.Link eventKey="link-1">Libros</Nav.Link>
+                                    <Nav.Link eventKey="link-2">Autoras</Nav.Link>
+                                </Nav>
+                            </Col>
+                            <Col>
+                                <Nav defaultActiveKey="/home" className="flex-column">
+                                    <h6>Mi cuenta</h6>
+                                    <Nav.Link href="/home">Ingresar</Nav.Link>
+                                    <Nav.Link eventKey="link-1">Carrito</Nav.Link>
+                                </Nav>
+                            </Col>
+                            <Col>
+                                <Col>
+                                    <Nav defaultActiveKey="/home" className="flex-column">
+                                        <h6>Contacto</h6>
+                                        <Nav.Item>Email: feminaria@gmail.com</Nav.Item>
+                                        <Nav.Item>Telefono: 341-556985</Nav.Item>
+                                        <Nav.Link href="/home">Librerias</Nav.Link>
+                                        <Nav.Link eventKey="link-1">Redes</Nav.Link>
+                                    </Nav>
+                                </Col>
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+            </div>
         </div>
-    )
-}
+    );
+};
 
 export default Layout
